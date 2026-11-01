@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE_NAME: my-lxqt-vm
+  IMAGE_NAME: my-fedora-lxqt-vm
   GHCR_REGISTRY: ghcr.io
 
 jobs:
