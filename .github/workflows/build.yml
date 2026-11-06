@@ -1,7 +1,7 @@
 name: Build LXQt OS Based On Fedora 44 Bootc Image
 on:
   schedule:
-    - cron: "27 20 * * *"
+    - cron: "03 19 * * *"
   push:
     paths-ignore:
       - "**.md"
