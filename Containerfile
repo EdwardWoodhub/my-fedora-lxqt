@@ -6,6 +6,7 @@ RUN printf '[copr:copr.fedorainfracloud.org:zhullyb:v2rayA]\nname=Copr repo for 
 
 # 3. 安装 RPM 软件包并清理缓存
 RUN dnf install -y \
+    7zip \
     adwaita-cursor-theme \
     adwaita-icon-theme \
     atril \
